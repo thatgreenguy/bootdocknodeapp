@@ -1,0 +1,6 @@
+chat:
+  build: .
+  command: echo 'Ready!'
+  volumes:
+    - .:/home/app/chat
+
