@@ -1,6 +1,9 @@
 chat:
   build: .
   command: echo 'Ready!'
+  ports:
+    - '3000:3000'
   volumes:
     - .:/home/app/chat
-
+    - /home/app/chat/node_modules
+    
